@@ -89,11 +89,12 @@ function keyPressed(){
 
 	if (keyCode === LEFT_ARROW) {
 	helicopterSprite.x=helicopterSprite.x-20
-
+        packageSprite.x=package.x-20
+		
 	}
 
 	if (keyCode === RIGHT_ARROW) {
 		helicopterSprite.x=helicopterSprite.x+20
-	
+	        packageSprite.x=packageSprite.x+20
 		}
 }
